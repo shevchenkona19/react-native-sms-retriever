@@ -109,7 +109,7 @@ final class PhoneNumberHelper {
 
             if (activity instanceof FragmentActivity) {
                 final FragmentActivity fragmentActivity = (FragmentActivity) activity;
-                builder = builder.enableAutoManage(fragmentActivity, mApiClientOnConnectionFailedListener);
+//                builder = builder.enableAutoManage(fragmentActivity, mApiClientOnConnectionFailedListener);
             }
 
             mGoogleApiClient = builder.build();
